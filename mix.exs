@@ -37,9 +37,7 @@ defmodule ConnArtist.MixProject do
   end
 
   defp description do
-    """
-    Tools for managing Plug connections.
-    """
+    "Tools for managing Plug connections."
   end
 
   defp package do
