@@ -16,6 +16,11 @@ goal is to keep the dependency set as svelte as possible in order to retain the
 broadest possible compatibility with various implementations of Plug across
 applications in the Elixir community.
 
+## Hex
+
+This library is currently published at for use with the public hex.pm
+repository at https://hex.pm/packages/conn_artist.
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
