@@ -38,7 +38,7 @@ defmodule ConnArtist.MixProject do
      files: ["lib", "mix.exs", "README.md"],
      maintainers: ["FunctionHaus LLC, Mike Zazaian"],
      licenses: ["MIT License"],
-     links: %{"GitHub" => "https://github.com/zazaian/conn_artist",
+     links: %{"GitHub" => "https://github.com/functionhaus/conn_artist",
               "Docs" => "https://hexdocs.pm/conn_artist/"}
      ]
   end
