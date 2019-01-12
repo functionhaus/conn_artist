@@ -30,8 +30,6 @@ jobs:
 
       # fetch dependencies
       - run: mix deps.get
-      # create the test env
-      - run: mix ecto.create
 
       # save cache changes for future runs
       - save_cache:
