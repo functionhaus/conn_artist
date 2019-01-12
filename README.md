@@ -16,15 +16,11 @@ goal is to keep the dependency set as svelte as possible in order to retain the
 broadest possible compatibility with various implementations of Plug across
 applications in the Elixir community.
 
-## Hex
-
-This library is currently published at for use with the public hex.pm
-repository at https://hex.pm/packages/conn_artist.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `conn_artist` to your list of dependencies in `mix.exs`:
+The package can be installed by adding `conn_artist` to your list of
+dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -34,9 +30,15 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/conn_artist](https://hexdocs.pm/conn_artist).
+## Availability
+
+This library is currently published at for use with the public hex.pm
+repository at https://hex.pm/packages/conn_artist.
+
+Source code is available at the [FunctionHaus Github Organization](
+https://github.com/functionhaus) at
+https://github.com/functionhaus/conn_artist.
+
 
 ## License
 
