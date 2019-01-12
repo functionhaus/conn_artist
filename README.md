@@ -8,7 +8,7 @@ but please feel free to submit pull requests for additional helpers and patterns
 that you believe would be beneficial in such a library.
 
 All of the functions in this library are currently located in the top-level
-ConnArtist module but I could see this changing as it grows in scope and
+ConnArtist module but this could change as it grows in scope and
 requires more rigorous organization.
 
 At the moment this library includes only Plug and Jason as dependencies. The
