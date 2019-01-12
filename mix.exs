@@ -10,7 +10,9 @@ defmodule ConnArtist.MixProject do
       build_embedded: Mix.env() == :prod,
       deps: deps(),
       description: description(),
-      package: package()
+      package: package(),
+      source_url: "https://github.com/functionhaus/conn_artist",
+      homepage_url: "https://functionhaus.com"
     ]
   end
 
@@ -38,6 +40,7 @@ defmodule ConnArtist.MixProject do
      files: ["lib", "mix.exs", "README.md"],
      maintainers: ["FunctionHaus LLC, Mike Zazaian"],
      licenses: ["MIT License"],
+
      links: %{"GitHub" => "https://github.com/functionhaus/conn_artist",
               "Docs" => "https://hexdocs.pm/conn_artist/"}
      ]

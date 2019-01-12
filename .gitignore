@@ -22,3 +22,5 @@ erl_crash.dump
 # Ignore package tarball (built via "mix hex.build").
 conn_artist-*.tar
 
+# Ignore the lockfile - this is a dependency.
+mix.lock
