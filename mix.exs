@@ -4,6 +4,7 @@ defmodule ConnArtist.MixProject do
   def project do
     [
       app: :conn_artist,
+      name: "ConnArtist",
       version: "0.0.2",
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
@@ -12,7 +13,13 @@ defmodule ConnArtist.MixProject do
       description: description(),
       package: package(),
       source_url: "https://github.com/functionhaus/conn_artist",
-      homepage_url: "https://functionhaus.com"
+      homepage_url: "https://functionhaus.com",
+
+      docs: [
+        main: "ConnArtist", # The main page in the docs
+        logo: "assets/functionhaus_logo.png",
+        extras: ["README.md"]
+      ]
     ]
   end
 

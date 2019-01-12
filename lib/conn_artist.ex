@@ -18,6 +18,7 @@ defmodule ConnArtist do
       "255.255.255.0"
 
   """
+  @spec ip_to_str({0..255, 0..255, 0..255, 0..255}) :: binary()
   def ip_to_str(ip_tuple) do
     ip_tuple
     |> Tuple.to_list
@@ -37,6 +38,7 @@ defmodule ConnArtist do
       "20.40.60.80"
 
   """
+  @spec ip_to_str(%Plug.Conn{remote_ip: {0..255, 0..255, 0..255, 0..255}}) :: binary()
   def remote_ip_str(conn) do
     conn.remote_ip
     |> __MODULE__.ip_to_str
@@ -45,6 +47,7 @@ defmodule ConnArtist do
   @doc """
   Halts a connection and returns a status and json response.
   """
+  @spec halt_json(%Plug.Conn{}, :atom | 100..599, any()) :: %Plug.Conn{}
   def halt_json(conn, status, msg) do
     conn
     |> halt
