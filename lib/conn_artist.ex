@@ -44,13 +44,6 @@ defmodule ConnArtist do
 
   @doc """
   Halts a connection and returns a status and json response.
-
-  ## Examples
-
-   # Jason.encode! %Plug.Conn{halted: true, status: 400}
-      iex> IO.puts ConnArtist.halt_json(%Plug.Conn{}, 400, "not found")
-      %Plug.Conn{}
-
   """
   def halt_json(conn, status, msg) do
     conn

@@ -4,7 +4,7 @@ defmodule ConnArtist.MixProject do
   def project do
     [
       app: :conn_artist,
-      version: "0.0.1",
+      version: "0.0.2",
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
       build_embedded: Mix.env() == :prod,
@@ -23,9 +23,7 @@ defmodule ConnArtist.MixProject do
   defp deps do
     [
      {:plug, "~> 1.7"},
-     {:jason, "~> 1.1"},
-     {:cowboy, "~> 2.6.0"},
-     {:plug_cowboy, "~> 2.0.1"}
+     {:jason, "~> 1.1"}
     ]
   end
 
