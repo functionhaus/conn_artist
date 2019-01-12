@@ -5,7 +5,7 @@ defmodule ConnArtist.MixProject do
     [
       app: :conn_artist,
       name: "ConnArtist",
-      version: "0.0.2",
+      version: "0.0.3",
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
       build_embedded: Mix.env() == :prod,
@@ -44,7 +44,7 @@ defmodule ConnArtist.MixProject do
     [
      files: ["lib", "mix.exs", "README.md"],
      maintainers: ["FunctionHaus LLC, Mike Zazaian"],
-     licenses: ["MIT License"],
+     licenses: ["Apache 2"],
 
      links: %{"GitHub" => "https://github.com/functionhaus/conn_artist",
               "Docs" => "https://hexdocs.pm/conn_artist/"}

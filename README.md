@@ -33,3 +33,7 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/conn_artist](https://hexdocs.pm/conn_artist).
 
+## License
+
+ConnArtist source code is released under Apache 2 License.
+Check LICENSE file for more information.
