@@ -32,7 +32,8 @@ defmodule ConnArtist.MixProject do
   defp deps do
     [
      {:plug, "~> 1.7"},
-     {:jason, "~> 1.1"}
+     {:jason, "~> 1.1"},
+     {:ex_doc, "~> 0.19", only: :dev, runtime: false}
     ]
   end
 
